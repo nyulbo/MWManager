@@ -1,0 +1,13 @@
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\MessageBusLib.dll
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\MessageBusLib.pdb
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\Newtonsoft.Json.dll
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\RabbitMQ.Client.dll
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\Newtonsoft.Json.xml
+C:\git-repo\mw_manager\MWManager\MessageBusLib\bin\Release\RabbitMQ.Client.xml
+C:\git-repo\mw_manager\MWManager\MessageBusLib\obj\Release\MessageBusLib.dll
+C:\git-repo\mw_manager\MWManager\MessageBusLib\obj\Release\MessageBusLib.pdb
+C:\git-repo\mw_manager\MWManager\MessageBusLib\obj\Release\MessageBusLib.csprojAssemblyReference.cache
+C:\git-repo\mw_manager\MWManager\MessageBusLib\obj\Release\MessageBusLib.csproj.CoreCompileInputs.cache
+C:\git-repo\mw_manager\MWManager\MessageBusLib\obj\Release\MessageBusLib.csproj.CopyComplete

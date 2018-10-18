@@ -1,0 +1,20 @@
+﻿<Window x:Class="MWManagerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MWManagerApp"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="MWManager" Height="680" Width="1000">
+    <Grid>
+        <TabControl x:Name="MainTab">
+            <TabItem Header="메세지 로그">
+                <Frame Source="/Views/MWLogView.xaml"></Frame>
+            </TabItem>
+            <!--<TabItem Header="Message Log Subscriber">
+                <Frame Source="/Views/LogView.xaml"></Frame>
+            </TabItem>-->
+        </TabControl>
+    </Grid>
+</Window>

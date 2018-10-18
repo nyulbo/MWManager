@@ -1,0 +1,68 @@
+﻿/*
+InsertLog.sql
+*/
+insert into log_property
+(
+	content_type, 
+	content_encoding,
+	delivery_mode, 
+	priority, 
+	correlation_id, 
+	reply_to, 
+	expiration, 
+	app_id, 
+	message_id,	
+	timestamp,
+	type, 
+	user_id, 
+	cluster_id,
+	headers,
+	ins_date,
+	upd_date
+)
+values 
+(
+	@content_type, 
+	@content_encoding,
+	@delivery_mode, 
+	@priority, 
+	@correlation_id, 
+	@reply_to, 
+	@expiration, 
+	@app_id, 
+	@message_id,
+	@timestamp, 
+	@type, 
+	@user_id, 
+	@cluster_id,
+	@headers,
+	@ins_date,
+	@upd_date
+);
+insert into log_info
+(
+	exchange, 
+	routing_key, 
+	queue, 
+	deliver_tag,
+	consumer_tag, 
+	redelivered, 
+	payload, 
+	property_seq, 
+	ins_date,
+	upd_date
+)
+values 
+(
+	@exchange, 
+	@routing_key, 
+	@queue, 
+	@deliver_tag, 
+	@consumer_tag, 
+	@redelivered, 
+	@payload, 
+	last_insert_id(), 
+	@ins_date,
+	@upd_date
+);
+select last_insert_id();

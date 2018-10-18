@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 6,
+    "Username": "mw_dev_11",
+    "Name": "윤길중",
+    "Email": "mw_dev_11@adms.com",
+    "AvatarUrl": "https://www.gravatar.com/avatar/dc9a613c1925d216845a47be3da1ffbc?s=80&d=identicon",
+    "PrivateToken": "f4ebf92ca845284abf446ed7c09ae8851b3480ccea0f501889aea8d591b587c9",
+    "Host": "http://192.168.0.111/",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

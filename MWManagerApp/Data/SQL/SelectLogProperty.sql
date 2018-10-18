@@ -1,0 +1,23 @@
+﻿/*
+SelectLogProperty.sql
+*/
+select
+	seq,
+	content_type, 
+	content_encoding,
+	delivery_mode, 
+	priority, 
+	correlation_id, 
+	reply_to, 
+	expiration, 
+	app_id, 
+	message_id,	
+	timestamp,
+	type, 
+	user_id, 
+	cluster_id,
+	headers,
+	ins_date,
+	upd_date
+from 
+	log_property
